@@ -1,0 +1,54 @@
+.cdm.expandable.active, .cdm.expanded
+{
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+  box-shadow: 1px 1px 18px rgba(0,0,0,0.1);
+  margin-top:15px;
+}
+
+#headlines-wrap-inner,#headlines-frame
+{
+  background-color: lightgrey;
+}
+
+.cdmContentInner img, .cdmContentInner video, .cdmIntermediate img, .cdmIntermediate video, .postContent img, .postContent video
+{
+    margin: auto;
+    display: block;
+}
+.cdmContentInner p, .postContent p
+{
+    max-width:none;
+}
+
+#headlines-frame::before
+{
+  display:none;
+}
+
+
+#toolbar
+{
+    border-bottom: 1px solid grey;
+}
+
+#floatingTitle
+{
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 18px;
+  border-color: grey;
+  border-width: 2px 1px;
+  border-style: solid;
+}
+
+.cdmContentInner img, .cdmContentInner video, .cdmIntermediate img, .cdmIntermediate video, .postContent img, .postContent video
+{
+    margin: auto;
+    display: block;
+}
+.cdmContentInner p, .postContent p
+{
+    max-width:none;
+}
