@@ -1,6 +1,6 @@
 .cdm.expandable.active, .cdm.expanded
 {
-  max-width:800px;
+  max-width:900px;
   margin-left:auto;
   margin-right:auto;
   background-color: white;
@@ -10,17 +10,31 @@
 
 #headlines-wrap-inner,#headlines-frame
 {
-  background-color: lightgrey;
+  background-color: #e6e6e6;
+  box-shadow: 0px -2px 15px rgba(0,0,0,0.7);;
 }
-
+#feeds-holder, #headlines-wrap-inner .dijitSplitter, #main
+{
+  background-color:white;
+}
 .cdmContentInner img, .cdmContentInner video, .cdmIntermediate img, .cdmIntermediate video, .postContent img, .postContent video
 {
     margin: auto;
     display: block;
+    max-height: 550px;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 74px rgba(0, 0, 0, 0.04);
+    border: 1px solid #e3e3e3;
 }
 .cdmContentInner p, .postContent p
 {
     max-width:none;
+}
+
+.cdmContentInner
+{
+    font-size:16px;
+    line-height: 1.5;
 }
 
 #headlines-frame::before
@@ -32,6 +46,7 @@
 #toolbar
 {
     border-bottom: 1px solid grey;
+   box-shadow: 0px -2px 15px rgba(0,0,0,0.7);;
 }
 
 #floatingTitle
@@ -48,7 +63,31 @@
     margin: auto;
     display: block;
 }
+
+.cdmContent img {
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    border: 1px solid lightgray;
+    margin: 1em auto;
+}
 .cdmContentInner p, .postContent p
 {
     max-width:none;
 }
+
+.cdm.expandable.active .title, .cdm.expanded .title {
+    font-size: 32px;
+    line-height: 1;
+}
+
+
+
+.claro .dijitButton .dijitButtonNode, .claro .dijitComboButton .dijitButtonNode, .claro .dijitDropDownButton .dijitButtonNode, .claro .dijitToggleButton .dijitButtonNode {
+    padding:8px;
+}
+
+.claro .dijitContentPane {
+    padding: 8px;
+    border-top: 1px solid lightgray;
+}
+
+
